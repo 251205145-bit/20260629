@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.title {
+    background-image: url('../images/common/japan.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: #ffffff;
+}
+
+.title p {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.tournament-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.tournament-reverse {
+    flex-direction: row-reverse;
+}
+
+.tournament-text-box {
+    flex: 1;
+}
+
+.tournament-text-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    position: relative;
+}
+
+.tournament-text-box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666666;
+}
+
+.tournament-img-box {
+    flex: 1;
+    text-align: center;
+}
+
+.tournament-img-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .tournament-section,
+    .tournament-reverse {
+        flex-direction: column;
+        margin: 40px auto;
+        gap: 20px;
+    }
+}
