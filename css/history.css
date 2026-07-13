@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.title {
+    background-image: url('../images/common/history_pele.png'); 
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: #ffffff;
+}
+
+.title p {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.feature-image {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.feature-image img {
+    max-width: 100%;
+    width: 640px;
+    height: auto;
+}
